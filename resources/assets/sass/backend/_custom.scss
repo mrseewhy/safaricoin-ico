@@ -1,0 +1,21 @@
+.blockLoading {
+  position: relative;
+}
+
+.blockLoading:after {
+  content: "";
+  height: 100%;
+  vertical-align: middle;
+  font-size: 11px;
+  text-align: center;
+  color: #0b2e13;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 5000;
+  background: #fff url("img/ring_loader.gif") no-repeat center center;
+  opacity: 0.5;
+  cursor: wait;
+}
